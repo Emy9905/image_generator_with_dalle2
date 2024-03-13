@@ -8,7 +8,7 @@ form.addEventListener("submit", async (e) => {
   const data = new FormData(form);
 
   const response = await fetch(
-    "https://emyimagegenerator.netlify.app/",
+    "http://localhost:8080/",
 
     {
       method: "POST",
