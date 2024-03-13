@@ -32,4 +32,4 @@ app.post("/", async (req, res) => {
   }
 });
 
-app.listen(8080, () => console.log("Serverul a pornit"));
+app.listen(80, () => console.log("Serverul a pornit"));
